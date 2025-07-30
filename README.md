@@ -24,12 +24,14 @@ pip install -r requirements.txt
 2. Создай .env файл (можно переименовать из примера ниже):
 
 # .env
+```bash
 SRC_GITEA_URL=https://your-gitea1.com
 SRC_GITEA_TOKEN=токен_от_source_gitea
 
 DEST_GITEA_URL=https://your-gitea2.com
 DEST_GITEA_TOKEN=токен_от_target_gitea
 DEST_GITEA_USER=your-user
+```
 
 3. Запусти скрипт:
 
